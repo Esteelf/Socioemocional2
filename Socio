@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 Cultiva tu Ser: Mi Espacio de Bienestar Socioemocional</title>
+    <style>
+        /* Estilos CSS Mejorados */
+        :root {
+            --color-principal: #38a790; /* Verde menta oscuro */
+            --color-fondo: #f4fdf8; /* Blanco muy suave */
+            --color-secundario: #6aa84f; /* Verde suave */
+            --color-texto: #333;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- Estilos del Menú de Navegación --- */
+        .menu-nav {
+            background-color: var(--color-principal);
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+        }
+
+        .menu-nav a:hover {
+            background-color: #2e8b74; /* Verde más oscuro al pasar el ratón */
+        }
+        
+        /* --- Estructura Principal con Barra Lateral --- */
+        .contenido-principal {
+            display: flex;
+            max-width: 1200px;
+            margin: 30px auto;
+            gap: 20px; /* Espacio entre el contenido y la barra lateral */
+            padding: 0 20px;
+        }
+
+        .contenedor {
+            flex-grow: 1; 
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            min-height: 80vh; 
+        }
+        
+        /* --- Estilos de la Barra Lateral Decorativa (Sidebar) --- */
+        .sidebar {
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .sidebar img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* --- Imágenes en la barra lateral usando URLs de personas --- */
+        .img-sidebar {
+            /* Estilo general para las imágenes de la barra lateral */
+            width: 100%;
+            height: 180px; /* Altura fija para uniformidad */
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Imagen de una persona meditando (Autoconocimiento) */
+        .img-sidebar-1 { 
+            background-image: url('https://images.pexels.com/photos/3820464/pexels-photo-3820464.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        /* Imagen de personas riendo/conectando (Conexión Social) */
+        .img-sidebar-2 { 
+            background-image: url('https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        /* Imagen de una persona escribiendo/pensando (Reflexión/Diario) */
+        .img-sidebar-3 { 
+            background-image: url('https://images.pexels.com/photos/3847849/pexels-photo-3847849.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        /* --- Estilos del Contenido Interno --- */
+
+        h1 {
+            color: var(--color-principal);
+            text-align: center;
+            border-bottom: 3px solid var(--color-secundario);
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--color-secundario);
+            font-size: 1.8em;
+            margin-top: 30px;
+            border-left: 5px solid var(--color-principal);
+            padding-left: 10px;
+            scroll-margin-top: 80px;
+        }
+
+        .tabla-emocional {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .tabla-emocional th, .tabla-emocional td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .tabla-emocional th {
+            background-color: var(--color-principal);
+            color: white;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: var(--color-principal);
+            color: white;
+            border-radius: 0 0 15px 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="menu-nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#autoconocimiento">Autoconocimiento</a>
+        <a href="#conexion">Conexión Social</a>
+        <a href="#consejos">Consejos Diarios</a>
+    </nav>
+
+    <div class="contenido-principal">
+        
+        <aside class="sidebar">
+            <div class="img-sidebar img-sidebar-1" title="Persona meditando"></div>
+            
+            <h3>La Conexión es Vital</h3>
+            <p>Recuerda que tu bienestar impacta a quienes te rodean. Cuídate para cuidar mejor.</p>
+            
+            <div class="img-sidebar img-sidebar-2" title="Personas conversando"></div>
+            
+            <p>Dedica un momento hoy a la introspección.</p>
+            
+            <div class="img-sidebar img-sidebar-3" title="Persona escribiendo"></div>
+        </aside>
+
+        <div class="contenedor">
+            
+            <header id="inicio">
+                <h1>🌟 Cultiva tu Ser: Mi Espacio de Bienestar Socioemocional</h1>
+            </header>
+
+            <div class="seccion">
+                <h2>Entendiendo la Inteligencia Emocional</h2>
+                <p>La inteligencia socioemocional es la capacidad de **entender, usar y gestionar** nuestras propias emociones de forma constructiva, y de relacionarnos con los demás con empatía. Esta página es tu guía y recordatorio para entrenar tu mente y tu corazón.</p>
+            </div>
+
+            <div class="seccion" id="autoconocimiento">
+                <h2>🖼️ Sección 1: El Espejo Interior - Autoconocimiento y Autorregulación</h2>
+                <p>El viaje comienza contigo. Conocer tus emociones es el primer paso para gestionarlas y no dejar que ellas te gestionen a ti.</p>
+
+                <table class="tabla-emocional">
+                    <thead>
+                        <tr>
+                            <th>Concepto</th>
+                            <th>Descripción Clave</th>
+                            <th>Herramientas Prácticas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>**Autoconocimiento**</td>
+                            <td>Reconocer tus emociones en el momento en que surgen y entender por qué aparecen.</td>
+                            <td>**Diario Emocional:** Anota 3 emociones fuertes al día y su causa.</td>
+                        </tr>
+                        <tr>
+                            <td>**Autorregulación**</td>
+                            <td>Manejar las emociones disruptivas (ira, ansiedad, frustración) para que no tomen el control.</td>
+                            <td>**Pausa de 3 Minutos:** Detente, respira profundamente 5 veces y luego actúa.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="seccion" id="conexion">
+                <h2>🫂 Sección 2: La Conexión Exterior - Empatía y Habilidades Sociales</h2>
+                <p>La **empatía** es la habilidad de ponerse en los zapatos del otro para comprender su perspectiva. Las **Habilidades Sociales** nos permiten expresar nuestras necesidades y escuchar las de los demás con respeto mutuo.</p>
+                
+                <h3>💡 Tarea Clave: Practica la Escucha Activa</h3>
+                <ol>
+                    <li>**Deja el Teléfono.**</li>
+                    <li>**Mantén Contacto Visual.**</li>
+                    <li>**Repite o Parafrasea:** Valida su sentimiento ("Entiendo que te sientes frustrado...").</li>
+                </ol>
+            </div>
+            
+            <div class="seccion" id="consejos">
+                <h2>💖 Sección 3: Consejos para el Día a Día</h2>
+                <p>Estos pequeños hábitos tienen un gran impacto en tu bienestar:</p>
+                <ul class="lista-consejos">
+                    <li>**Gratitud Diaria:** Nombra 3 cosas, por pequeñas que sean, por las que te sientes agradecido antes de dormir.</li>
+                    <li>**Movimiento Consciente:** Haz una pausa de 10 minutos para estirarte o caminar.</li>
+                    <li>**Busca tu "Ancla":** Dedica tiempo a una actividad (pintar, hornear, etc.) que te haga sentir plenamente presente.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>"Tu salud emocional es tu superpoder más grande."</p>
+        <p>&copy; Espacio Socioemocional. Hecho con la guía de Gemini.</p>
+    </footer>
+
+</body>
+</html>
